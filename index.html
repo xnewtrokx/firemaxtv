@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FireMax TV — Slider Örneği</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>FireMax TV — Slider</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="movie-slider" aria-label="Film sliderı">
+      <button class="slider-arrow left" aria-label="Önceki">◀</button>
+      <div class="slider-window">
+        <div class="slider-track" id="slider-track">
+          <!-- Kartlar JS tarafından eklenecek -->
+        </div>
+      </div>
+      <button class="slider-arrow right" aria-label="Sonraki">▶</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 FireMax TV — Demo</small>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
